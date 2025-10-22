@@ -1,0 +1,19 @@
+/* Медиа-запросы для адаптивности */
+@media (max-width: 500px) {
+    .container {
+        width: 100%; /* На маленьких экранах занимает всю ширину */
+        height: 100vh; /* И всю высоту */
+        border-radius: 0;
+        box-shadow: none;
+        background: #0d0d0d; /* Убираем фон контейнера, чтобы был виден фон body */
+    }
+
+    form {
+        padding: 0 20px;
+    }
+    
+    /* Скрыть круглую анимацию на очень маленьких экранах, чтобы не мешала */
+    .animated-circle {
+        display: none; 
+    }
+}
